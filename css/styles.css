@@ -1,0 +1,240 @@
+/* C O L O R E S 
+
+Neutro claro:#F1F1F1
+Neutro oscuro: #838273
+gris:#2C2C2C
+
+*/
+
+ul, ol, li{margin: 0; padding: 0; list-style: none}
+a{text-decoration: none;}
+h1, h2, h3, h4{font-weight: 400}
+h2, h3{color: #3E8ACC; font-family: 'Roboto Condensed', sans-serif;}
+h2{}
+h3{font-size: 1.5em; margin-top:1.2em; margin-bottom: -0.2em}
+p{font-weight: 300 }
+i{cursor:pointer;}
+img{border:0;}
+.clear{clear: both;}
+
+html, body {height: 100%;padding: 0;margin: 0;}
+body{margin: 0; font-family: 'Roboto', sans-serif; color: #838273;}
+.container{max-width: 62.500em; padding-left:1.250em; padding-right: 1.250em; padding-bottom: 6em; margin: 0 auto; position: relative;}
+
+header{background:#F7F7F5; padding: 0 2em; position: relative; z-index: 99 }
+header .logo{float: left; margin-top: 1em; margin-bottom: 1em}
+h1{color: #fff;  font-size: 3em; font-weight: 300; line-height: 1.33em; position: relative; top: 4em; text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.7);-webkit-text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.7);-moz-text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.7);}
+h1 span{display:inline-block; background: rgba(0,0,0,0.6); padding: 0 0.5em 0 2em}
+
+
+/* Catálogo  */
+.catalogo {font-size: 0; background-image: url(../images/sin-foto.png); background-size:33.33% }
+.catalogo .fotoCatalogo {float:left; width: 33.33%; position: relative;}
+.catalogo img {width: 100%}
+.nombreSobreFoto {display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgba(0,0,0,0); font-family: 'Roboto Condensed', sans-serif; color: rgba(255,255,255,0); text-align: center; font-size: 28px; padding: 35% 2% 0 2%; box-sizing:border-box; -webkit-transition: all 600ms ease;
+-moz-transition: all 600ms ease;
+-ms-transition: all 600ms ease;
+-o-transition: all 600ms ease;
+transition: all 600ms ease;}
+.nombreSobreFoto:hover {background: rgba(0,0,0,0.6); color: rgba(255,255,255,1); margin-bottom: -3px; padding: 25% 2% 0 2%; }
+
+/* Detalle de Producto */
+	/* carrousel de productos */
+	#owl .item img, #owl2 .item img {display: block; width: 100%; height: auto}
+
+
+section{padding-top: 0.1em}
+section h2{font-size: 2.625em; color:#868473; text-align: center; margin:1.6em 0;}
+.detalleProducto{text-align: center; margin-bottom: 8em}
+.tablaProducto{max-width: 500px; width: 500px; margin: 0 auto 2.5em auto; border-collapse: collapse;}
+.tablaProducto th, .tablaProducto td {padding: 0.5em;}
+.tablaProducto th{background: #F1F1F1;border-right: 2px solid #fff;}
+.tablaProducto th:last-child{border: none}
+.tablaProducto td{border-bottom: 1px solid #E6E6E6;}
+
+.contentFormContacto{background: #F7F7F5; padding: 2em 1.5em; margin-bottom: 4em}
+.contentFormContacto > h3{margin-top: 0; margin-bottom: 1.5em; text-align: center; font-size: 2em}
+.contentFormContacto .infoContacto{float: left; width: 49%;}
+.contentFormContacto .infoContacto h3:first-child{margin-top: 0}
+/*.contentFormContacto .infoContacto h3:nth-child(3){margin-top: 1.5em; margin-bottom: 0.5em}*/
+.contentFormContacto .formConsulta{float: right; width: 49%;}
+	.formConsulta input[type="text"], .formConsulta input[type="email"], .formConsulta textarea{display: block; width: 100%; box-sizing: border-box;}
+	.formConsulta textarea {height: 220px}
+.mapa {margin-bottom: 5em}
+.mapa iframe{width: 100%; height: 250px}
+.ver-mapa {float: right; color:#838273;}
+.video-fabrica {width: 100%; height: 550px; margin-top: 2em}
+
+/* tabla detalle */
+.infoArticulo {position:relative; }
+.infoArticulo span{display:inline-block !important; padding: 0.5em 0;; box-sizing:border-box;border-bottom: 1px solid #E6E6E6;margin-left: -4px;}
+.th{background: #F1F1F1;border-left: 2px solid white; border-bottom: 0 !important;}
+.artic {width:20%}
+.medidas {width:38%;}
+.precio {width:20%;}
+._stock {width:20%;}
+.detalle {padding: 20px 3px 20px 20px;text-align:left; position:relative; font-size:12px; border-bottom:2px solid #E6E6E6;margin-bottom: 20px;}
+.check {position:absolute; right:0px; top:0px; width:36px; height:36px;padding-top: 6px;}
+
+.mueblesDetalle {width:70%; margin: 0 auto 3em}
+.mueblesDetalle p {margin-bottom:15px;}
+.mueblesTabla {width:100% ;border-collapse:separate; border-spacing:3px; font-size:12px;text-align:center; margin-bottom:20px;}
+.mueblesTabla th {background:#E4E6D2;font-size:11px; padding:3px;text-transform:uppercase;}
+.mueblesTabla th:last-child {background:none; width:25px;}
+.mueblesTabla td {padding:1px;}
+.mueblesTabla td.medidasExtras {padding:5px 3px 10px 16px; text-align:left !important; border-bottom:1px solid #B0B491; z-index:1000; position:relative;}
+.mueblesTabla td:first-child {width:150px !important;}
+.mueblesTabla td:last-child {text-align:right}
+.mueblesTabla a.medidas {background:url(../images/flecha.png) no-repeat 5px 3px; display:block; padding-left:5px;color: #3b3b3b; cursor:pointer;}
+.mueblesTabla a.medidas:hover {font-weight:bold;}
+
+/*.ui-accordion .ui-accordion-content {padding: 0 !important;}*/
+.ui-accordion span {display:none;}
+.category {cursor:pointer; display:block}
+.category:hover {color:#738D41}
+
+.error{display: none}
+
+/* Carrito de compras */
+.h3Plus{margin-bottom: 0.6em; color: #838273 !important; font-size: 1.875em }
+/*.contentCarrito h3*/
+
+.tablaCarrito{width:100%; border-collapse:collapse;font-size:1.125em; font-weight:300;}
+.tablaCarrito th{background:#F7F7F5; padding:0.313em;font-weight:300}
+.tablaCarrito td{padding:1.250em 0;border-bottom:1px dotted #ccc;}
+
+.tablaCarrito th:first-child,.tablaCarrito td:first-child {width:15%; text-align:left;}
+.tablaCarrito th:nth-child(2),.tablaCarrito td:nth-child(2) {padding-left:5%; width: 30%}
+.tablaCarrito td:nth-child(3),.tablaCarrito td:nth-child(3) {text-align:center; width: 20%}
+.tablaCarrito td:nth-child(4),.tablaCarrito td:nth-child(5),.tablaCarrito td:nth-child(6){width:10%; text-align:center}
+
+.tablaCarrito .imgStock{display:inline-block; margin-right:5px;}
+.inputCantidad{width:60px;}
+.imgCarrito{border:1px solid #E0E2CA;}
+.tablaCarrito tr:last-child td:nth-last-child(1),.tablaCarrito tr:last-child td:nth-last-child(2),.tablaCarrito tr:last-child td:nth-last-child(3),.tablaCarrito tr:last-child td:nth-last-child(4),.tablaCarrito tr:last-child td:nth-last-child(5),.tablaCarrito tr:last-child td:nth-last-child(6){border-bottom:none !important;}
+
+.tablaCuentaCarrito, .tablaTotalCarrito{width:100%; border-collapse:collapse; margin-bottom:15px; font-weight:300;}
+.tablaTotalCarrito{background:#838273; color:#fff;}
+.tablaCuentaCarrito{background:#F7F7F5;}
+
+.tablaCuentaCarrito td, .tablaTotalCarrito td{padding:15px 30px !important; vertical-align:top;}
+/*.tablaCuentaCarrito td:first-child, .tablaTotalCarrito td:first-child{text-align:left; width:800px; padding-left:30px;}*/
+.tablaCuentaCarrito td.total{padding: 15px 0 !important}
+.tablaCuentaCarrito td:nth-child(2),.tablaTotalCarrito td:nth-child(2){text-align:right; width:150px; padding-right:30px;}
+.tablaCuentaCarrito td:nth-child(3){text-align:left;}
+.tablaCuentaCarrito tr:nth-child(4){color: white; font-weight: 700; background: #838273;}
+/*.tablaCuentaCarrito tr:last-child td{padding:0 !important}*/
+.tablaCuentaCarrito tr{border-bottom:3px solid white;}
+.tablaCuentaCarrito .colZonas{float:left; width:45%; }
+.tablaCuentaCarrito h3 {margin: 0.6em 0 -0.5em 0}
+.tablaCuentaCarrito .zonas{}
+.tablaCuentaCarrito .zonas p{margin-top:5px; margin-bottom:5px;}
+.tablaCuentaCarrito .zonas p:nth-child(4){margin-bottom:1.250em !important;}
+.tablaCuentaCarrito .zonas p:nth-child(1), .tablaCuentaCarrito .zonas p:nth-child(5) {margin-bottom:10px !important;}
+.tablaCuentaCarrito .mapaZonas{float:right; width: 45%; margin-top: 1.250em;}
+.tablaCuentaCarrito .mapaZonas img{border:1px solid #ccc;  width: 100%}
+.tablaCuentaCarrito .datosComprador{margin-top:1.250em;}
+.tablaCuentaCarrito .colDatosComprador:last-child{margin-right:0 !important}
+.tablaCuentaCarrito .colDatosComprador{float:left; width:32%; margin-right:1.3%}
+.tablaCuentaCarrito .colDatosComprador label{display:block;margin-bottom:5px;}
+.tablaCuentaCarrito .colDatosComprador input{display:block; width:100%; box-sizing:border-box; margin-bottom:10px;}
+.tablaCuentaCarrito .colDatosComprador textarea{display:block; width:100%;  box-sizing:border-box; height:113px;}
+.selectCarrito{margin: 0 8px 10px 0;}
+
+.total{font-size:18px; font-weight: 300}
+.totalproductos {font-size:18px; font-weight: 700}
+
+.medioDePago p{margin:0 0 5px 0 }
+.tablaCuentaCarrito input[type=radio]{margin:0 7px 7px 0px; display:inline-block}
+.aPagar{color:#3E8ACC; font-size:18px; font-weight:400}
+
+.tiposPago {width:100%; background: #F7F7F5; padding: 30px; text-align:center}
+.formaPago {width:48%; min-height: 400px; padding:30px; box-sizing:border-box; background: white; border: 1px solid #ccc}
+.formaPago h3{font-size:1.3em; margin-top:0; color:#838273; font-family: 'Roboto', sans-serif; font-weight: 300}
+.formaPago input{display:block; margin: 0 auto;}
+.pagoTarjetas {float:left; }
+.pagoTarjetas img {max-width: 100%}
+.pagoBanco {float:right;}
+
+/* Tarjetas de Crédito */
+.tarjetas{margin-top: 1.5em}
+.tarjetas img{margin-right:1.250em; vertical-align:middle;}
+.data-fiscal {float:right; position:relative; top:-10px}
+.data-fiscal  img{width:40px; border:0; margin-right:0!important;}
+
+/* Elementos de formulario */
+
+input[type="text"], input[type="email"], textarea {background: #fff; border: 1px solid #C2C4C4; border-radius: 0.250em; -webkit-border-radius: 0.250em;-moz-border-radius: 0.250em;-o-border-radius: 0.250em; padding: 0.6em 1em; font-size: 1em; margin-bottom: 0.5em}
+textarea{font-family: 'Roboto', sans-serif; font-size: 16px;}
+.btn{background:#3074B1; color:#fff; border: none; font-size: 1.4em; line-height: 1.4em; padding: 0.2em 0.6em 0.3em; border-radius: 0.250em; -webkit-border-radius: 0.250em;-moz-border-radius: 0.250em;-o-border-radius: 0.250em; font-family: 'Roboto Condensed', sans-serif; }
+.btn:hover{background: #4593D6; }
+.agregar{background:#3074B1 url(../images/carritoBco.png) no-repeat 0.5em 0.4em; padding-left: 2.2em !important;}
+.agregar:hover{background:#4593D6 url(../images/carritoBco.png) no-repeat 0.5em 0.4em;}
+
+/*
+    ESTILOS UI DIALOG
+*/
+.ui-dialog{position:absolute;z-index:9999; width:800px !important; height:450px !important; background:#767860; left: 40% ;margin: -150px auto 0 -400px; top:50% !important; border-radius:8px; -webkit-border-radius:8px; -moz-border-radius:8px;-o-border-radius:8px; padding:20px 30px 30px;}
+.ui-dialog iframe{width:800px !important; height:400px !important; background:white;  position:absolute;z-index:9999; border:none !important;background:white; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;-o-border-radius:4px;}
+.ui-dialog-titlebar-close{display: inline-block; width:20px; height:20px; background: url(../images/eliminar_bco.png) no-repeat; border:none !important; margin: 0 0 10px 785px; cursor:pointer;}
+.ui-dialog-titlebar-close span{display:none;}
+
+#bgtransparent{background: none repeat scroll 0 0 black;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index:999;}
+
+#loading{ background: none repeat scroll 0 0 white;border: 1px solid #999999;font-size: 14px;height: 85px;left: 50%;margin: -100px auto 0 -150px;
+opacity: 0.9; padding-top: 30px;position: fixed;text-align: center;top: 50%;width: 300px;z-index: 9999;}
+
+
+/*  M E D I A  Q U E R I E S  */
+
+@media screen and (max-width:786px){
+
+	header {padding: 0 1em}
+	nav a {background-position: 0.9em 0.5em !important;}
+	h1 {background: rgba(0,0,0,0.6); padding: 0.5em; text-align: center; font-size:2.2em; line-height: 1.2em; top:0;}
+	h1 span {display:inline; background: rgba(0,0,0,0); padding: 0;}
+
+	.tarjetas{text-align: center}
+	.tarjetas h3{text-align: left}
+	.tarjetas img{margin-bottom: 1.5em}
+	.data-fiscal{float: none}
+
+	.contentFormContacto .infoContacto {float: none; width: 100%; text-align: center}
+	.contentFormContacto .formConsulta {float: none; width: 100%; margin-top: 40px}
+
+	.catalogo .fotoCatalogo {width: 50%}
+	.catalogo {background-size:50% }
+
+	.tablaCarrito{font-size: 1em;}
+	.imgCarrito{width: 100%; height: auto}
+	.inputCantidad{width: 2em}
+
+	.tablaCuentaCarrito .colZonas{float:none; width:100%; }
+	.tablaCuentaCarrito .mapaZonas{float:none; width: 100%; margin-top: 1.250em;}
+	.tablaCuentaCarrito .colDatosComprador{float:none; width:100%; margin-right:0}
+
+	.formaPago {width:100%; min-height: 200px; margin-bottom: 1em}
+	.pagoTarjetas {float:none; }
+	.pagoBanco {float:none;}
+	.h3Plus{font-size: 1.5em }
+}
+@media screen and (max-width:600px){
+	.mueblesDetalle{width: 100%}
+	.inputCantidad{width: 1.5em}
+	.tablaCarrito{font-size: 0.9em;}
+}
+
+@media screen and (max-width:497px){
+	h1 {font-size:1.8em;}
+	h1 div {display: inline}
+	.catalogo .fotoCatalogo {width: 100%}
+	section h2{font-size: 2em; margin:1.5em 0;}
+
+}

@@ -1,0 +1,349 @@
+/*
+Verde claro:#E0E2CA
+Verde intermedio: #767860
+verde oscuro: 
+gris:#2C2C2C
+*/
+
+
+body{color: #3b3b3b; font-size: 13px; margin:0; font-family: 'Roboto', sans-serif;}
+
+ul, li{margin:0; padding:0; list-style:none;}
+h1, h2, h3{font-weight:200;}
+a{text-decoration:none}
+.clear{clear:both;}
+img{border:0}
+strong{font-weight:500;}
+
+a.flecha{background:url(../images/flecha.png) no-repeat left center; padding-left:15px; font-size:12px; text-transform:uppercase; float:right; color:#767860; margin:10px 0;}
+
+
+
+/* G E N E R A L E S */
+#container{width:960px; margin:50px auto 0 auto; position:relative; z-index:100; }
+.content{width:960px; margin:0 auto; }
+
+.menuSup{background:url(../images/patron_rayas.gif) repeat-x left bottom; height:58px;}
+
+#menuPrincipal h1{float:left;margin-top:50px;}
+#menuPrincipal h1 span{display:none;}
+#menuPrincipal h2{float:right; width:650px; font-size:16px; text-align:center;margin-top:50px;color:#000}
+#menuPrincipal span{color:#B0B491; font-size:16px;font-weight:400!important;}
+#menuPrincipal h2 span{font-size:18px; line-height:24px}
+.content{width:960px; margin:0 auto;}
+
+.menuFotos{margin-top:40px;}
+.menuFotos li{display:inline-block; text-align:center;}
+.menuFotos li a{display:block}
+.menuFotos li span{display:block; padding:7px; background:#3B3B3B; font-family: 'Roboto Condensed', sans-serif; color:#E0E2CA!important; letter-spacing:1px; text-transform:uppercase;font-size:16px;margin-bottom:3px;font-weight:300 !important; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -o-border-radius:2px; }
+.menuFotos li img {display:block; width:157px; height:155px}
+.menuFotos li a:hover span{background:#767860;}
+.menuFotos a:hover {color:#fff!important}
+
+.stock{cursor:pointer}
+section h2{color:#252525; font-size:24px;}
+
+
+/* H O M E */
+
+.videoYoutube{float:left; width:50%}
+.dos{float:right; width:50%}
+.mapahome{margin-bottom:60px;}
+.mapahome iframe{width:100%; height:250px; border:3px solid #E0E2CA; }
+.sliderHome{}
+.dos .bx-prev, .dos .bx-next{display:block; width:24px; height:24px; text-indent:-9999px;position:absolute; top:165px !important;}
+.dos .bx-prev{background: url(../images/prev.png);left:10px !important}
+.dos .bx-next{background: url(../images/next.png); right:10px !important;}
+.videoYoutube h2, .dos h2 {margin-top:0}
+
+/* C A T A L O G O */
+.error{ color:red !important; text-align:right; font-size:12px; display:none; margin:0 !important}
+.tablaComprar{float:right}
+.comprar{float:right}
+
+.tiempoEntrega{font-size:12px; text-align:right; margin-bottom:5px;}
+.tiempoEntrega span{vertical-align:top; margin-left:10px;}
+.mueblesDiv{border-top:1px solid black; padding:30px 0 30px;;}
+.mueblesSlideContent{width:640px;float:left; margin-bottom: 60px;}
+.mueblesSlideContent h3{font-size: 20px; margin-bottom: 10px;}
+.mueblesSlide{width:640px; height:247px;}
+
+.envelope{border-bottom:1px solid #ACA899;}
+.sliderCatalogo{}
+.sliderCatalogo .slideCat{border:1px solid #ACA899; height:245px; width:auto !important;}
+.bx-wrapper{position:relative;}
+.bx-pager-item{display:none}
+.bx-prev, .bx-next{display:block; width:24px; height:24px; text-indent:-9999px;position:absolute; top:110px;}
+.bx-prev{background: url(../images/prev.png);left:-8px }
+.bx-next{background: url(../images/next.png); right:-8px;}
+
+
+
+.muebleArticulos {font-size:12px;}
+.th{background:#E4E6D2;font-size:11px; padding:2px;text-transform:uppercase;}
+.infoArticulo{position:relative; width:310px }
+.infoArticulo span{display:inline-block !important}
+.acordeon{ }
+.category{height:24px; display:block }
+.artic{width:60px; padding:3px}
+.medidas{width:90px;padding:2px}
+.precio{width:60px;padding:2px}
+._stock{width:40px; padding:2px}
+.detalle{padding: 10px 3px 10px 20px;text-align:left; position:relative; font-size:12px; border-bottom:1px solid #B0B491;margin-bottom: 10px;}
+.check{position:absolute; right:0px; top:0px; width:25px; height:25px;}
+
+.mueblesDetalle{float:right; width:310px; padding-top:56px;}
+.mueblesDetalle p{margin-bottom:15px;}
+.mueblesTabla{float:right; width:310px;border-collapse:separate; border-spacing:3px; font-size:12px;text-align:center; margin-bottom:20px;}
+.mueblesTabla th{background:#E4E6D2;font-size:11px; padding:3px;text-transform:uppercase;}
+.mueblesTabla th:last-child{background:none; width:25px;}
+.mueblesTabla td{padding:1px;}
+.mueblesTabla td.medidasExtras{padding:5px 3px 10px 16px; text-align:left !important; border-bottom:1px solid #B0B491; z-index:1000; position:relative;}
+.mueblesTabla td:first-child{width:150px !important;}
+.mueblesTabla td:last-child{text-align:right}
+.mueblesTabla a.medidas{background:url(../images/flecha.png) no-repeat 5px 3px; display:block; padding-left:5px;color: #3b3b3b; cursor:pointer;}
+.mueblesTabla a.medidas:hover{font-weight:bold;}
+
+/*.ui-accordion .ui-accordion-content {padding: 0 !important;}*/
+.ui-accordion span {display:none;}
+.category{cursor:pointer}
+.category:hover{color:#738D41}
+
+.contentCheck {position:relative}
+
+/* P A G I N A S   E S T A T I C A S  */
+.txt-int {font-size:16px; font-weight:300}
+.galeriafabrica{}
+.galeriafabrica a img{border: solid 7px #E0E3CA;margin: 1px;}
+.mapa-zonas {border: solid 7px #E0E3CA;margin: 1px;}
+.tarjetas-int img{margin-right:20px; vertical-align:middle;}
+.col-form-consulta {width:50%; float:left}
+.col-form-consulta  input[type=text] {height:28px;}
+.col-form-consulta  p {margin:0 0 10px 0}
+.btn-consulta {font-size: 16px!important}
+.col-mapa-int {width:50%; float:right}
+.col-mapa-int iframe {border: solid 7px #E0E3CA!important;}
+
+/* C A R R I T O */
+.tablaCarrito{width:100%; border-collapse:collapse;font-size:12px; font-weight:400;}
+.tablaCarrito th{padding:5px;}
+.tablaCarrito td{padding:20px 0;}
+.tablaCarrito th{background:#E0E3CA; border-top:1px solid #767860; border-bottom:1px solid #767860; text-transform:uppercase; }
+.tablaCarrito td{border-bottom:1px dotted #767860;}
+
+.tablaCarrito td:first-child{width:140px; text-align:left;}
+.tablaCarrito td:nth-child(2){padding-left:60px;}
+.tablaCarrito td:nth-child(3){text-align:center}
+.tablaCarrito td:nth-child(4),.tablaCarrito td:nth-child(5),.tablaCarrito td:nth-child(6){width:120px; text-align:center}
+.tablaCarrito .imgStock{display:inline-block; margin-right:5px;}
+.inputCantidad{width:60px;}
+.imgCarrito{border:1px solid #E0E2CA;}
+.tablaCarrito tr:last-child td:nth-last-child(1),.tablaCarrito tr:last-child td:nth-last-child(2),.tablaCarrito tr:last-child td:nth-last-child(3),.tablaCarrito tr:last-child td:nth-last-child(4),.tablaCarrito tr:last-child td:nth-last-child(5),.tablaCarrito tr:last-child td:nth-last-child(6){border-bottom:none !important;}
+
+.consigna{font-size:18px !important; color:#738D41; font-weight:400;}
+.tablaCuentaCarrito, .tablaTotalCarrito{width:100%; border-collapse:collapse;background:#E0E3CA;font-size:14px; border-top:1px solid #767860; border-bottom:1px solid #767860; margin-bottom:15px; font-weight:300;}
+.tablaCuentaCarrito td, .tablaTotalCarrito td{padding:15px 30px !important; vertical-align:top;}
+.tablaCuentaCarrito td:first-child, .tablaTotalCarrito td:first-child{text-align:left; width:800px; padding-left:30px;}
+.tablaCuentaCarrito td.total{padding: 15px 0 !important}
+.tablaCuentaCarrito td:nth-child(2),.tablaTotalCarrito td:nth-child(2){text-align:right; width:150px; padding-right:30px;}
+.tablaCuentaCarrito td:nth-child(3){text-align:left;}
+.tablaCuentaCarrito tr:nth-child(4){background:#BDD099;}
+.tablaCuentaCarrito tr:last-child td{padding:0 !important}
+.tablaCuentaCarrito tr{border-bottom:3px solid white;}
+.tablaCuentaCarrito .colZonas{float:left; width:440px; }
+.tablaCuentaCarrito .zonas{float:left; width:420px; padding-left:20px;}
+.tablaCuentaCarrito .zonas p{margin-top:5px; margin-bottom:5px;}
+.tablaCuentaCarrito .zonas p:nth-child(4){margin-bottom:20px !important;}
+.tablaCuentaCarrito .zonas p:nth-child(1), .tablaCuentaCarrito .zonas p:nth-child(5) {margin-bottom:10px !important;}
+.tablaCuentaCarrito .mapaZonas{float:right;margin-top: 20px;}
+.tablaCuentaCarrito .mapaZonas img{border:3px solid white;}
+.tablaCuentaCarrito .datosComprador{margin-left:20px;}
+.tablaCuentaCarrito .colDatosComprador:last-child{margin-right:0 !important}
+.tablaCuentaCarrito .colDatosComprador{display:inline-block; width:32%; vertical-align:top; margin-right:10px}
+.tablaCuentaCarrito .colDatosComprador label{display:block;margin-bottom:5px;}
+.tablaCuentaCarrito .colDatosComprador input{display:block; width:270px; margin-bottom:10px; height:26px;}
+.tablaCuentaCarrito .colDatosComprador textarea{display:block; width:270px; height:84px;}
+.selectCarrito{margin: 0 8px 10px 0;}
+.total{font-size:14px;}
+.medioDePago p{margin:0 0 5px 0 }
+.tablaCuentaCarrito input[type=radio]{margin:0 7px 7px 0px; display:inline-block}
+.aclaracion{font-size:12px;}
+.aPagar{color:#738D41; font-size:16px; font-weight:400}
+
+.tiposPago{width:100%; border-collapse:collapse;}
+.tiposPago h3{font-size:20px; margin-top:0}
+.tiposPago td{width:50% !important; text-align:center !important; font-size:12px; }
+.tiposPago td:first-child{border-right:3px solid white;}
+.tiposPago td input{display:block; margin: 0 auto;}
+.formaPago{padding:20px 30px !important;}
+
+.ui-dialog{position:absolute;z-index:9999; width:800px !important; height:450px !important; background:#767860; left: 40% ;margin: -150px auto 0 -400px; top:50% !important; border-radius:8px; -webkit-border-radius:8px; -moz-border-radius:8px;-o-border-radius:8px; padding:20px 30px 30px;}
+.ui-dialog iframe{width:800px !important; height:400px !important; background:white;  position:absolute;z-index:9999; border:none !important;background:white; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;-o-border-radius:4px;}
+.ui-dialog-titlebar-close{display: inline-block; width:20px; height:20px; background: url(../images/eliminar_bco.png) no-repeat; border:none !important; margin: 0 0 10px 785px; cursor:pointer;}
+.ui-dialog-titlebar-close span{display:none;}
+
+/* F O O T E R */
+footer {height: 500px; background: url(../images/bg_footer.png) repeat-x; border-bottom: 10px solid #b0b591; margin-top:100px;}
+footer h2 {margin-bottom: 20px; border-bottom: 1px solid #b0b591; font-size: 18px;}
+footer .logo {display: inline-block; margin-top: 25px; margin-bottom: 20px;}
+footer ul li {margin-left: 15px; list-style-image: url(../images/flechafooter.png);}
+footer .destacado{font-size:14px;}
+footer a{color:#2C2C2C}
+.columnas {vertical-align: top;}
+.sitemap {float: left; width: 180px;margin-right: 30px;}
+.sitemap ul, .sitemap p{font-size: 12px;padding: 0;}
+.grande {width: 300px;}
+.sitemap  .location {background: url(../images/ic_sitio.png) no-repeat 0 5px;padding-left: 25px;}
+.sitemap  .celular {background: url(../images/ic_movil.png) no-repeat 0 5px;padding-left: 25px;}
+.sitemap  .mail {background: url(../images/ic_mail.png) no-repeat 0 5px;padding-left: 25px;}
+.sitemap  .hora {background: url(../images/ic_hora.png) no-repeat 0 5px;padding-left: 25px;}
+
+.tarjetas{margin-top:50px;}
+.tarjetas p{color:#999; font-size:13px;}
+.tarjetas img{margin-right:20px; vertical-align:middle;}
+.data-fiscal {float:right; position:relative; top:-10px}
+.data-fiscal  img{width:40px; border:0; margin-right:0!important;}
+a.laura {display:block; width:8px; height:136px; background:url(../images/laura.png);
+ position:absolute; top:536px; right:20px}
+a.laura span {display:none}
+
+/* F O R M U L A R I O S */
+.btnVerde{display:block; background:#738D41; padding:6px 10px 6px 10px; color:white; border:none; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; text-transform:uppercase;-webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); -ms-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6);-o-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); font-size:12px;font-family: 'Ruda', sans-serif;}
+.btnVerdeCarrito{display:block; background:#738D41 url(../images/carritoBco.png) no-repeat 10px 3px; padding:6px 10px 6px 35px; color:white; border:none; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; text-transform:uppercase;-webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); -ms-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6);-o-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); font-size:14px;font-family: 'Ruda', sans-serif; }
+.btnAgregarProd{background:#738D41 url(../images/agregar.png) no-repeat 5px 5px; color:white; padding:6px 10px 4px 25px; border:none; text-transform:uppercase; font-family: 'Ruda', sans-serif;border-radius:3px; -webkit-border-radius:3px; -mz-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px; height:28px !important;-webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6);-moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); -ms-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6);-o-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6); box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.6);}
+.divOculta {}
+
+/*  C O N S U L T A S  */
+#formConsulta{}
+#formConsulta .campo-form{width:420px; display:inline-block; margin-top:3px}
+
+
+
+#loading{ background: none repeat scroll 0 0 white;border: 1px solid #999999;font-size: 14px;height: 85px;left: 50%;margin: -100px auto 0 -150px;
+opacity: 0.9; padding-top: 30px;position: fixed;text-align: center;top: 50%;width: 300px;z-index: 9999;}
+
+/* Estilos A D M I N */
+
+.formAdmin{width:150px; margin:50px auto 0 ;}
+.formAdmin label, .formAdmin input[type=text], .formAdmin input[type=password]{display:block; width:150px}
+.formAdmin input{margin-bottom:10px}
+
+.alignLeft{text-align:left;}
+.alignRight{text-align:right;}
+.recuadroForm{border:1px solid #CBCFA7; padding:25px; margin-bottom:50px;}
+input[type=text], input[type=password] {height:22px; border:1px solid #76785F;}
+textarea{ border:1px solid #76785F;}
+select{ border:1px solid #76785F; padding:2px}
+.observaciones{font-size:12px; position:absolute; margin-top:10px;}
+
+.menuAdmin{height:34px; background:#42698A; margin-bottom:60px}
+.menuAdmin li{float:left;}
+.menuAdmin li#current{background:#4E7CA3}
+.menuAdmin li a{color: white; display: block; font-size: 14px; height: 26px; padding: 8px 15px 0; text-transform: uppercase;  }
+.menuAdmin li a:hover{background:#4E7CA3}
+.menuAdmin li a.active{background:#4E7CA3}
+
+h2{color: #333 }
+.formularios h2, .formularios2 h2{color:#42698A !important; font-size:22px; }
+.formularios h3{color:#76785F}
+.formularios table, .formularios2 table{width:100%; border-spacing:0;}
+.formularios table td, .formularios2 table td{padding:8px; vertical-align:middle;}
+.formularios table td:first-child{width:100px;}
+.formularios table td.radios label{vertical-align:top; margin-right:15px; text-transform:uppercase; font-size:14px;}
+.formularios input[type=text]{height:26px; border:1px solid #76785F;margin-right:15px; padding-left:5px;}
+.formularios input.nuevoMueble, .formularios input.epigrafe{width:450px; height:24px; border:1px solid #76785F;margin-right:15px;}
+.formularios select{height:26px; border:1px solid #76785F;margin-right:15px; padding:2px; width:240px; background: url(../images/flechaAbajo.png) no-repeat right white;}
+.formularios textarea{border:1px solid #76785F; width:240px; height:120px; }
+.formularios .cargarFotos{font-size:12px; }
+.formularioArticulosMini{margin-bottom:60px;}
+
+#formAlta td:first-child{width:110px !important}
+
+
+.listaProductos, .modificarEnvios{background:white !important; border-spacing:0;text-align:center; font-size:12px;}
+.listaProductos th, .modificarEnvios th{background:#E9EADA; border-bottom:1px solid #767860; border-top:1px solid #767860;padding:8px; text-transform:uppercase; color:#76785F }
+.listaProductos td, .modificarEnvios td{border-bottom:1px dotted #76785F;}
+.listaProductos td.porcentajeProductos, .modificarEnvios td.porcentajeProductos{background:#E9EADA !important; border-bottom:1px solid #767860 !important; border-top:1px solid #767860 !important;vertical-align:top; padding:10px 0 50px; }
+.porcentaje{width:70px; margin:0 10px;}
+.listaProductos tr:nth-last-child(2) td{border-bottom:none !important; }
+.listaProductos td.porcentajeProductos p{float:left; width:62%; text-align:right; margin:0;}
+.listaProductos td.porcentajeProductos .btnPorcentajes{float:right; width:35%; text-align:left; padding-left:1%; }
+.modificarEnvios  tr:last-child td{border-bottom:1px solid #76785F;}
+.modificarEnvios td:first-child{width:30%px;}
+.art{width:80px;}
+.col1Foto{float:left; margin-right:22px; width:285px}
+.col2Foto{float:left; width:600px; }
+.col1Foto p, .col2Foto p{margin-top:0}
+.fotoCarrito{padding:25px; position:relative; margin-bottom:40px; }
+.fotoCarritoImg{width:110px; height:110px;margin-bottom:15px; }
+.fotoCarritoImg img{width:110px; height:110px;}
+.fotoChica {position:relative;padding:0 0 80px 0; border-bottom: 1px dotted #767860;margin-bottom: 20px;}
+.fotosCargadas .fotoChica:last-child{border-bottom:none}
+.fotoChicaImg{width:160px; height:160px;margin-bottom: 15px;  }
+.fotoChicaImg img{width:160px; height:160px;}
+.fotoGdeImg{width:600px; height:160px; margin-bottom:15px; position:relative; overflow:hidden;}
+.fotoGdeImg img{position:absolute; top:-50%; left:-30%;}
+.fotoCarrito p, .fotoChicaImg p, .fotoGdeImg p{margin-top:0}
+.vacio{border:1px dotted #767860}
+.camposAgregarFotos{margin-bottom:20px;padding:0 0 30px 0; border-bottom: 1px dotted #767860;}
+.eliminarFoto{display:block; background: url(../images/eliminar.png) no-repeat; color:#42698A; line-height:17px; padding:0 0 0 22px; position:absolute; top:30px; right:5px; cursor:pointer;}
+.eliminarFotoCarrito{display:block; background: url(../images/eliminar.png) no-repeat; color:#42698A; line-height:17px; padding:0 0 0 22px; position:absolute; top:30px; right:30px;cursor:pointer;}
+.eliminarFotoChica{top:0 !important;cursor:pointer;}
+.inputEpigrafe{width:600px}
+label.epig{font-size:12px; margin-bottom:10px; display:block;}
+.examinar{margin-bottom:10px; display:inline-block}
+.fotoChicaAgregar{border-bottom: 1px dotted #333333; margin-bottom: 50px; padding-bottom: 80px; position: relative;}
+
+#formAltaCarrito{margin-bottom:0 !important}
+
+.mueblesTabla.artPublicado, .mueblesTabla.artNuevo{float:none !important; }
+.mueblesTabla.artPublicado th{background:#E4E6D2;font-size:11px; padding:3px 20px;text-transform:uppercase;}
+.mueblesTabla.artPublicado th:nth-last-child(1), .mueblesTabla.artPublicado th:nth-last-child(2){background:#767860; color:white;}
+.mueblesTabla.artPublicado th:nth-last-child(3) {background:white;}
+.mueblesTabla.artPublicado td, .mueblesTabla.artNuevo td{padding:2px 1px !important;}
+.mueblesTabla.artPublicado td.medidasExtras{padding:5px 3px 10px 16px; text-align:left !important; border-bottom:1px solid #B0B491}
+.mueblesTabla.artPublicado td:last-child{text-align:center}
+.mueblesTabla.artPublicado a.medidas{background:url(../images/flecha.png) no-repeat 5px 3px; display:block; padding-left:15px;color: #3b3b3b;}
+.mueblesTabla.artPublicado a.medidas:hover{font-weight:bold;}
+.mueblesTabla.artNuevo th:last-child{background:#E4E6D2}
+.mueblesTabla.artNuevo input[type=text]{width:100%; height:20px;}
+.mueblesTabla.artNuevo textarea{width:100%; height:100px;}
+.mueblesTabla.artNuevo .btnAgregar{margin-right:10px !important;}
+
+.sortable{padding-left:20px}
+.sortable li {font-size:14px;line-height:20px; font-weight: 200;}
+.sortable li span{cursor:move}
+.sortable .observacion {color:#ccc}
+.ui-sortable-helper{color:orange !important}
+
+.btnForm{background:#42698A; color:white; padding:4px 10px 4px; border:none; text-transform:uppercase; font-family: 'Ruda', sans-serif; border-radius:2px; -webkit-border-radius:2px; -mz-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px; margin:0 0 10px 0; height:26px !important;}
+.limpiarForm{background:#81b6bc !important;}
+.btnAgregar{background:#42698A url(../images/agregar.png) no-repeat 5px 5px; color:white; padding:4px 10px 4px 25px; border:none; text-transform:uppercase; font-family: 'Ruda', sans-serif;border-radius:2px; -webkit-border-radius:2px; -mz-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px; height:26px !important; position:absolute; right:0; bottom:30px;}
+.btnEditar{background:#42698A url(../images/editarBco.png) no-repeat 5px 5px; color:white; padding:4px 10px 4px 25px; border:none; text-transform:uppercase; font-family: 'Ruda', sans-serif;border-radius:2px; -webkit-border-radius:2px; -mz-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px; height:26px; position:absolute; right:0px; bottom:30px;}
+.btnGuardarCarrito{background:#42698A url(../images/editarBco.png) no-repeat 5px 5px; color:white; padding:4px 10px 4px 25px; border:none; text-transform:uppercase; font-family: 'Ruda', sans-serif;border-radius:2px; -webkit-border-radius:2px; -mz-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px; height:26px; position:absolute; right:30px; bottom:30px;}
+.btnGuardar{background:#42698A url(../images/editarBco.png) no-repeat 5px 5px; color:white; padding:4px 10px 4px 25px; border:none; text-transform:uppercase; font-family: 'Ruda', sans-serif;border-radius:2px; -webkit-border-radius:2px; -mz-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px; height:26px; position:absolute; right:0px; bottom:30px;}
+.eliminarMueble{background:#42698A url(../images/eliminar_bco.png) no-repeat 5px 5px; color:white; padding:7px 10px 0px 27px; border:none; text-transform:uppercase; font-family: 'Ruda', sans-serif;border-radius:2px; -webkit-border-radius:2px; -mz-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px; height:22px !important; display:inline-block;position: absolute;
+    right: 40px;
+    text-transform: uppercase;
+    top: -115px;cursor:pointer;}
+.borderPuntos{border-bottom:1px dotted #B0B491;}
+.floatRight{float:right;}
+
+#bgtransparent{background: none repeat scroll 0 0 black;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index:999;}
+
+/*    M E D I A   Q U E R I E S    
+
+@media screen and (max-width: 960px) {
+	#container{width:100%}
+	.content{width:100%}
+	#menuPrincipal h1{float:none; text-align:center}
+	#menuPrincipal h2{float:none; margin:50px auto 0 auto;}
+	
+}*/

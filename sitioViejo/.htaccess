@@ -1,0 +1,24 @@
+AddHandler x-httpd-php5 .php
+# 
+Options +FollowSymLinks  
+RewriteEngine On  
+
+RewriteBase /nuevo
+
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f  
+
+
+RewriteRule ^(admin|user)($|/) - [L]
+RewriteRule ^(mesas|sillas|sillones|reposeras|bancos|muebles)-de-jardin/?$ php/catalogo.php?id=$1 [L]
+RewriteRule ^(la-fabrica|acerca-calidad|formas-de-pago-y-envio|consultas)/?$ html/$1.php? [L]
+RewriteRule ^([^/\.]+)/?$ php/$1.php? [L]
+
+
+ErrorDocument 404 http://www.nekonmuebles.com.ar/
+
+
+
+
+
+

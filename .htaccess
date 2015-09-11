@@ -1,0 +1,14 @@
+#
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(mesas|sillas|sillones|reposeras|bancos|muebles)-de-jardin/?$ php/catalogo.php?id=$1 [L]
+RewriteRule ^(la-fabrica|acerca-calidad|formas-de-pago-y-envio|consultas)/?$ html/$1.php? [L]
+RewriteRule ^(mesas|sillas|sillones|reposeras|bancos|muebles)-de-jardin/detalle-producto/([^/\.]+)?$ php/detalleProducto.php?id=$2 [L]
+#RewriteRule ^(detalle-producto)/([^/\.]+)/?$ php/detalleProducto.php?id=$2 [L]
+RewriteRule ^(nekon)/?$ admin/index.php? [L]
+RewriteRule ^([^/\.]+)/?$ php/$1.php? [L]
+
+#Access-Control-Allow-Origin: http://fonts.gstatic.com/
