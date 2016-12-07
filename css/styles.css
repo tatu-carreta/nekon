@@ -28,8 +28,8 @@ h1 span{display:inline-block; background: rgba(0,0,0,0.6); padding: 0 0.5em 0 2e
 
 
 /* Catálogo  */
-.catalogo {font-size: 0; background-image: url(../images/sin-foto.png); background-size:33.33% }
-.catalogo .fotoCatalogo {float:left; width: 33.33%; position: relative;}
+.catalogo {font-size: 0; margin: 2% 1% 0; }
+.catalogo .fotoCatalogo {float: left; width: 31.33%; margin: 0 1% 2%; position: relative; padding: 1%; box-sizing: border-box; border: 1px solid #838273;}
 .catalogo img {width: 100%}
 .nombreSobreFoto {display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgba(0,0,0,0); font-family: 'Roboto Condensed', sans-serif; color: rgba(255,255,255,0); text-align: center; font-size: 28px; padding: 35% 2% 0 2%; box-sizing:border-box; -webkit-transition: all 600ms ease;
 -moz-transition: all 600ms ease;
@@ -43,7 +43,7 @@ transition: all 600ms ease;}
 	#owl .item img, #owl2 .item img {display: block; width: 100%; height: auto}
 
 
-section{padding-top: 0.1em}
+section{}
 section h2{font-size: 2.625em; color:#868473; text-align: center; margin:1.6em 0;}
 .detalleProducto{text-align: center; margin-bottom: 8em}
 .tablaProducto{max-width: 500px; width: 500px; margin: 0 auto 2.5em auto; border-collapse: collapse;}
@@ -174,7 +174,7 @@ textarea{font-family: 'Roboto', sans-serif; font-size: 16px;}
 /*
     ESTILOS UI DIALOG
 */
-.ui-dialog{position:absolute;z-index:9999; width:800px !important; height:450px !important; background:#767860; left: 40% ;margin: -150px auto 0 -400px; top:50% !important; border-radius:8px; -webkit-border-radius:8px; -moz-border-radius:8px;-o-border-radius:8px; padding:20px 30px 30px;}
+.ui-dialog{position:absolute;z-index:9999; width:800px !important; height:450px !important; background:#ddd !important; left: 40% ;margin: -150px auto 0 -400px; top:50% !important; border-radius:8px; -webkit-border-radius:8px; -moz-border-radius:8px;-o-border-radius:8px; padding:20px 30px 30px;}
 .ui-dialog iframe{width:800px !important; height:400px !important; background:white;  position:absolute;z-index:9999; border:none !important;background:white; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;-o-border-radius:4px;}
 .ui-dialog-titlebar-close{display: inline-block; width:20px; height:20px; background: url(../images/eliminar_bco.png) no-repeat; border:none !important; margin: 0 0 10px 785px; cursor:pointer;}
 .ui-dialog-titlebar-close span{display:none;}
@@ -209,7 +209,7 @@ opacity: 0.9; padding-top: 30px;position: fixed;text-align: center;top: 50%;widt
 	.contentFormContacto .infoContacto {float: none; width: 100%; text-align: center}
 	.contentFormContacto .formConsulta {float: none; width: 100%; margin-top: 40px}
 
-	.catalogo .fotoCatalogo {width: 50%}
+	.catalogo .fotoCatalogo {width: 48%}
 	.catalogo {background-size:50% }
 
 	.tablaCarrito{font-size: 1em;}
@@ -234,7 +234,7 @@ opacity: 0.9; padding-top: 30px;position: fixed;text-align: center;top: 50%;widt
 @media screen and (max-width:497px){
 	h1 {font-size:1.8em;}
 	h1 div {display: inline}
-	.catalogo .fotoCatalogo {width: 100%}
+	.catalogo .fotoCatalogo {width: 98%}
 	section h2{font-size: 2em; margin:1.5em 0;}
 
 }
