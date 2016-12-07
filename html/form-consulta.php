@@ -7,8 +7,8 @@
         <h3>Email:</h3>
         <p>nekon.muebles@hotmail.com<br>
         <h3>Horario de atención:</h3>
-        <p>Lunes a viernes horario corrido de 8 a 16.30 hs.<br>
-            Sábados de 8 a 13.30 hs.</p>
+        <p>Lunes a viernes de 8 a 12 hs y de 14 a 18 hs<br>
+            Sábados de 8 a 14 hs</p>
         <h3>Showroom y fábrica:</h3>
         <p>Calle 16 (Aschieri) N°4436<br>
             Berisso - Buenos Aires - Argentina</p>
